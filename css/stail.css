@@ -10,7 +10,7 @@
   
 }
 
-
+/* cSS Portfolio */
 
 .conteiner-heder-portfolio {
   border-bottom: 1px solid #e7e9fc;
@@ -20,6 +20,8 @@
   padding-top: 32px;
   padding-left: 16px;
 }
+
+/* Button POrtfolio */
 .meny {
   padding-left: 15px;
   padding-right: 15px;
@@ -31,24 +33,16 @@
 }
 
 
-.portfolio-margin {
-  margin-top: 96px;
-  margin-bottom: 72px;
+.portfolio-padding {
+  padding-top: 96px;
+ padding-bottom: 72px;
 }
 
 .meny-button + .meny-button {
   margin-left: 24px;
 }
 
-.portfolio-im {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-  width: 1158px;
-  display: flex;
-  margin-bottom: 120px;
-  
-}
+/* Portfolo IMG */
 
 .portfolio-imej {
   display: flex;
@@ -56,12 +50,11 @@
   padding-inline-start: 0px;
   align-items: center;
 
-  padding-left: 15px;
-    padding-right: 15px;
+  
     margin: 0 auto;
     width: 1158px;
     display: flex;
-    margin-bottom: 120px;
+    padding-bottom:120px;
 }
 
 .portfolio-all-img {
@@ -80,6 +73,7 @@
 ul {
   list-style: none;
 }
+
 /* Body */
 .body {
   font-family: var(--all-text);
@@ -98,8 +92,9 @@ p,
 a {
   margin: 0;
 }
-/* Index.html */
 
+
+/* Index.html */
 
 .conteiner-nav {
   padding-left: 15px;
@@ -154,10 +149,7 @@ a {
   margin-right: 0;
 }
 
-.img-what-we-dung {
-  margin-left: 24px;
-  margin-bottom: 120px;
-}
+
 
 /* Heder logo */
 .heder-studio {
@@ -251,18 +243,27 @@ h2 {
   padding-top: 8px;
 }
 /*Section2*/
-.benefits + .benefits {
+.benefits{
   margin-left: 24px;
   align-items: center;
+  padding-inline-start: 0px;
+  width: 264px;
+  }
+.benefits:first-child{margin-left: 0;}
+
+.img-what-we-dung {
+  margin-left: 24px;
+  padding-bottom: 120px;
 }
+.img-what-we-dung:first-child{margin-left: 0;}
+
+
 /* Conteiner Strategy */
-.conteiner-strategy {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-  align-items: center;
-  width: 1158px;
-  display: flex;
+.conteiner-strategy{
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    padding-inline-start: 0px;
 }
 .wawd {
   padding-bottom: 72px;
@@ -300,6 +301,7 @@ h2 {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
+.img-comand:first-child{margin-left: 0;}
 
 .section3-text {
   align-items: center;
@@ -384,7 +386,6 @@ h2 {
   text-transform: uppercase;
   color: var(--logo-text-color);
   text-decoration: none;
-  display: flex;
 }
 .footer-studio {
   font-family: var(--logo-text);
@@ -397,7 +398,6 @@ h2 {
   text-transform: uppercase;
   color: var(--footer-logo-color);
   text-decoration: none;
-  display: flex;
 }
 
 .footer-all {
