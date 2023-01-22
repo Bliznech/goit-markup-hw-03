@@ -280,14 +280,13 @@ h2 {
 
 .section-comand {
   padding-top: 120px;
-  padding-bottom: 120px;
+    padding-bottom: 120px;
   background-color: var(--footer-logo-color);
 }
 
 .our-team {
-  padding-top: 120px;
   padding-bottom: 72px;
-  align-items: center;
+  
 }
 
 .img-comand {
