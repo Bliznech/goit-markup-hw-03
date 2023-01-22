@@ -7,7 +7,6 @@
   --logo-text: Raleway;
   --all-text: Roboto;
   --background-saits: #ffffff;
-  
 }
 
 /* cSS Portfolio */
@@ -16,6 +15,9 @@
   border-bottom: 1px solid #e7e9fc;
 }
 .portfolio-text-insaid {
+  
+  border: 1px solid #e7e9fc;
+  border-top: none;
   padding-bottom: 32px;
   padding-top: 32px;
   padding-left: 16px;
@@ -23,23 +25,20 @@
 
 /* Button POrtfolio */
 .meny {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-  width: 1158px;
-  align-items: center;
-  display: flex;
   justify-content: center;
+  display: flex;
+  margin-bottom: 72px;
 }
-
-
-.portfolio-padding {
-  padding-top: 96px;
- padding-bottom: 72px;
-}
-
-.meny-button + .meny-button {
+.meny-button {
   margin-left: 24px;
+}
+.meny-button:first-child {
+  margin-left: 0;
+}
+
+.section-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 /* Portfolo IMG */
@@ -47,20 +46,13 @@
 .portfolio-imej {
   display: flex;
   flex-wrap: wrap;
-  padding-inline-start: 0px;
   align-items: center;
-
-  
-    margin: 0 auto;
-    width: 1158px;
-    display: flex;
-    padding-bottom:120px;
+  width: 1158px;
 }
 
 .portfolio-all-img {
   margin-right: 24px;
   margin-bottom: 48px;
-  border: 1px solid #e7e9fc;
 }
 
 .portfolio-all-img:nth-child(3n) {
@@ -72,6 +64,8 @@
 
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* Body */
@@ -93,6 +87,11 @@ a {
   margin: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 /* Index.html */
 
@@ -104,22 +103,21 @@ a {
   margin: 0 auto;
   align-items: center;
   width: 1158px;
- 
+
   display: flex;
 }
 .conteiner {
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  align-items: center;
-  width: 1158px;
-  display: flex;
+  
+  
 }
 .navwebstudio {
   display: flex;
   margin-top: 0px;
   margin-bottom: 0px;
-  
 }
 .navigation {
   display: flex;
@@ -148,8 +146,6 @@ a {
 .li-telefon:last-child {
   margin-right: 0;
 }
-
-
 
 /* Heder logo */
 .heder-studio {
@@ -223,8 +219,7 @@ h2 {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-}
-.Baner-text {
+
   padding-top: 188px;
 }
 
@@ -240,34 +235,37 @@ h2 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--general-text-color);
-  padding-top: 8px;
+  margin-top: 8px;
 }
 /*Section2*/
-.benefits{
+.benefits {
   margin-left: 24px;
   align-items: center;
   padding-inline-start: 0px;
   width: 264px;
-  }
-.benefits:first-child{margin-left: 0;}
+}
+.benefits:first-child {
+  margin-left: 0;
+}
 
 .img-what-we-dung {
   margin-left: 24px;
-  padding-bottom: 120px;
 }
-.img-what-we-dung:first-child{margin-left: 0;}
-
+.img-what-we-dung:first-child {
+  margin-left: 0;
+}
 
 /* Conteiner Strategy */
-.conteiner-strategy{
-    margin: 0 auto;
-    align-items: center;
-    display: flex;
-    padding-inline-start: 0px;
-}
+.conteiner-strategy {
+  display: flex;
+ }
 .wawd {
-  padding-bottom: 72px;
-  align-items: center;
+  margin-bottom: 72px;
+}
+
+.index-img-first {
+  display: flex;
+  padding-bottom: 120px;
 }
 
 .section-strategi {
@@ -276,14 +274,13 @@ h2 {
   align-items: center;
 }
 /* Section3 */
-.our-comand {
+.index-img-secondary {
   display: flex;
 }
 
 .section-comand {
   padding-top: 120px;
   padding-bottom: 120px;
-  align-items: center;
   background-color: var(--footer-logo-color);
 }
 
@@ -301,10 +298,11 @@ h2 {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
-.img-comand:first-child{margin-left: 0;}
+.img-comand:first-child {
+  margin-left: 0;
+}
 
 .section3-text {
-  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
   text-align: center;
@@ -337,6 +335,7 @@ h2 {
   align-items: center;
   letter-spacing: 0.04em;
   margin-top: 48px;
+  border: none;
 }
 .button-portfolio {
   cursor: pointer;
@@ -400,15 +399,6 @@ h2 {
   text-decoration: none;
 }
 
-.footer-all {
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 100px;
-  margin: 0 auto;
-  align-items: center;
-  width: 1158px;
-}
-
 .footer-text {
   font-style: normal;
   font-size: 16px;
@@ -419,5 +409,6 @@ h2 {
 }
 .footer-bagraund {
   background-color: #2e2f42;
-  height: 310px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
