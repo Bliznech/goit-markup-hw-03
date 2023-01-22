@@ -15,7 +15,6 @@
   border-bottom: 1px solid #e7e9fc;
 }
 .portfolio-text-insaid {
-  
   border: 1px solid #e7e9fc;
   border-top: none;
   padding-bottom: 32px;
@@ -111,8 +110,6 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  
-  
 }
 .navwebstudio {
   display: flex;
@@ -221,10 +218,12 @@ h2 {
   letter-spacing: 0.02em;
 
   padding-top: 188px;
-}
+  }
+
+.baner-button{padding-bottom: 188px;}
 
 .big-heder {
-  height: 600px;
+  
   background-color: var(--general-text-color);
   margin: 0;
   padding: 0;
@@ -258,7 +257,7 @@ h2 {
 /* Conteiner Strategy */
 .conteiner-strategy {
   display: flex;
- }
+}
 .wawd {
   margin-bottom: 72px;
 }
@@ -280,13 +279,12 @@ h2 {
 
 .section-comand {
   padding-top: 120px;
-    padding-bottom: 120px;
+  padding-bottom: 120px;
   background-color: var(--footer-logo-color);
 }
 
 .our-team {
   padding-bottom: 72px;
-  
 }
 
 .img-comand {
