@@ -279,10 +279,7 @@ h2 {
   margin-top: 72px;
 }
 
-.section-comand {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  background-color: var(--footer-logo-color);
+.comand{ background-color: var(--footer-logo-color);
 }
 
 .our-team {
