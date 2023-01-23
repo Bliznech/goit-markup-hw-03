@@ -57,7 +57,7 @@
 .portfolio-all-img:nth-child(3n) {
   margin-right: 0;
 }
-.portfolio-all-img :nth-last-child(-n + 3) {
+.portfolio-all-img:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
 
@@ -217,16 +217,16 @@ h2 {
   text-align: center;
   letter-spacing: 0.02em;
 
-  padding-top: 188px;
+  width: 497px;
+  margin: auto;
   }
 
-.baner-button{padding-bottom: 188px;}
 
-.big-heder {
+
+.big-heder {padding-top: 188px;padding-bottom: 188px;
   
   background-color: var(--general-text-color);
   margin: 0;
-  padding: 0;
   text-align: center;
 }
 .text {
@@ -264,8 +264,9 @@ h2 {
 
 .index-img-first {
   display: flex;
+  margin-top: 72px;
   padding-bottom: 120px;
-}
+  }
 
 .section-strategi {
   padding-top: 120px;
@@ -275,6 +276,7 @@ h2 {
 /* Section3 */
 .index-img-secondary {
   display: flex;
+  margin-top: 72px;
 }
 
 .section-comand {
